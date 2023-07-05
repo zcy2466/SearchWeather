@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back" />
+        <TextView
+            android:text="城市天气界面"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="城市ID:"
+            android:textSize="15sp"
+            android:layout_width="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_ID"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="60dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="城 市:"
+            android:textSize="15sp"
+            android:layout_width="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_name"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="时 间:"
+            android:textSize="15sp"
+            android:layout_width="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_time"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="温 度:"
+            android:textSize="15sp"
+            android:layout_width="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_Temper"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="省 份："
+            android:textSize="15sp"
+            android:layout_width="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_province"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="天 气:"
+            android:textSize="15sp"
+            android:layout_width="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_weather"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:text="湿 度:"
+            android:textSize="15sp"
+            android:layout_width="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/city_Humidity"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_collect"
+            android:text="收藏"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+
+        <Button
+            android:id="@+id/btn_refreash"
+            android:text="刷新"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>
